@@ -1,0 +1,3 @@
+num_classes: 2
+n_features: 512
+act: relu
