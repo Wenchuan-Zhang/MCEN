@@ -19,5 +19,5 @@ Train the model:
 ```bash
 python main.py --project=conch_mcen --datasets=mydataset --dataset_root=./h5_feature/conch_feature --model_path=./result --cv_fold=5 \
 --model=MCEN --pool=attn --n_trans_layers=2 --da_act=tanh --title=conch_MCEN \
---epeg_k=9 --crmsa_k=3 --all_shortcut --input_dim=512 --seed=2024 --label_path ./label.csv --only_rrt_enc --config ./config/conch_mcen.yml'
+--epeg_k=9 --crmsa_k=3 --all_shortcut --input_dim=512 --seed=2024 --label_path ./label.csv --only_rrt_enc --config ./config/conch_mcen.yml
 ```
