@@ -2,7 +2,7 @@
 
 Based on the Mamba framework, the MCEN algorithm is a cutting-edge deep learning approach designed for efficient and scalable model training and inference. 
 
-## TODO
+## 🙋TODO
 
 - [x] Add the code for the preprocessing of the datasets.
 - [x] Add the code for the training of the model.
@@ -10,11 +10,11 @@ Based on the Mamba framework, the MCEN algorithm is a cutting-edge deep learning
 - [ ] Improving README document.
 - [ ] Improving the code structure.
 
-## Preprocessing
+## 🔍Preprocessing
 - We adjusted the preprocessing steps in the [CLAM](https://github.com/mahmoodlab/CLAM) repository.
 - CONCH model and weight can be found in [this link](https://github.com/mahmoodlab/CONCH).
 
-## Training
+## 🔨Training
 Train the model:
 ```bash
 python main.py --project=conch_mcen --datasets=pCRdataset --dataset_root=./h5_feature/conch_feature --model_path=./result --cv_fold=5 \
